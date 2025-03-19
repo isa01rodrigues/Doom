@@ -1,0 +1,49 @@
+body {
+  background-color: #243d25;
+}
+
+header {
+  width: 150px;
+  height: 100%;
+}
+
+.containerCabecalho img {
+  position: absolute;
+  top: -96px;
+  left: 698px;
+}
+
+img {
+  width: 331px;
+  height: 441px;
+}
+
+.containerMain {
+  position: absolute;
+  width: 774px;
+  height: 774px;
+  top: 240px;
+  left: 477px;
+  
+}
+
+#ellipse {
+  position: absolute;
+  width: 841px;
+  height: 841px;
+  border-width: 3.5px;
+  background-color: #cc1b68;
+  clip-path: ellipse(50% 50%);
+}
+
+
+.cont{
+    display: flex;
+}
+
+contText{
+
+}
+p{
+    color: #fff;
+}
