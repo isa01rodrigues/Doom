@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #243d25;
 }
@@ -7,13 +9,15 @@ header {
   height: 100%;
 }
 
+/*************/
+
 .containerCabecalho img {
   position: absolute;
   top: -96px;
-  left: 698px;
+  left: 770px;
 }
 
-img {
+.containerCabecalho img {
   width: 331px;
   height: 441px;
 }
@@ -23,9 +27,10 @@ img {
   width: 774px;
   height: 774px;
   top: 240px;
-  left: 477px;
-  
+  left: 530px;
 }
+
+/***********************/
 
 #ellipse {
   position: absolute;
@@ -34,16 +39,129 @@ img {
   border-width: 3.5px;
   background-color: #cc1b68;
   clip-path: ellipse(50% 50%);
+ 
+
+  &
+
+.video-container {
+    position: relative;
+    width: 620px;
+    height: 349px;
+    cursor: pointer;
+}
+&
+.video-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+}
+&
+.video-container iframe {
+    width: 850px;
+    height: 850px;
+    display: none;
+}
 }
 
 
-.cont{
-    display: flex;
+
+
+
+/*****/
+.containerCont {
+  display: flex;
+  justify-content: space-around;
+ 
+
+  
 }
 
-contText{
+.conText {
+  position: absolute;
+  left: 28px;
+  top: 1170px;
+  width: 979px;
+  height: 878px;
+  
+  border-top: 2px solid #cc1b68;
+  border-right: 2px solid #cc1b68;
+  border-bottom: 2px solid #cc1b68;  border-left: 2px solid #cc1b68;
 
+  & 
+  p {
+    color: #fff !important;
+    font-size: 2em;
+    font-weight: 1;
+    text-align: justify;
+    width: 892px;
+  }
 }
-p{
-    color: #fff;
+
+.containerConteudo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1220px;
+  top: 1170px;
+  border-top: 2px solid #cc1b68;
+  border-right: 2px solid #cc1b68;
+  border-bottom: 2px solid #cc1b68;
+  
+
+
+  & img {
+    width: 649px;
+    width: 649px;
+  }
+
+  & h2 {
+    color: #ffffff;
+    font-size: 4.3em;
+  }
+   &
+   a img{
+    position: absolute;
+        left: 440px;
+        top: 876px;
+        width: 241px;
+        height: 161px;
+       
+   }
+}
+
+/*****************/
+footer{
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 99%;
+  position: absolute;
+  top: 2225px;
+  border-top: 2px solid #cc1b68;
+  border-right: 2px solid #cc1b68;
+  border-bottom: 2px solid #cc1b68;
+  border-left: 2px solid #cc1b68;
+ 
+}
+
+#hr0{
+  border-top: 2px solid #cc1b68;
+  border-right: 2px solid #cc1b68;
+  border-bottom: 2px solid #cc1b68;
+  border-left: 2px solid #cc1b68;
+  width: 810px;
+  position: absolute; 
+  top: 15%;
+}
+#hr1{
+  border-top: 2px solid #cc1b68;
+  border-right: 2px solid #cc1b68;
+  border-bottom: 2px solid #cc1b68;
+  border-left: 2px solid #cc1b68;
+  width: 852px;
+  position: absolute; 
+  top: 15%;
+  left: 55%;
 }

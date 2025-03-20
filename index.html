@@ -10,21 +10,28 @@
   <body>
     <header>
       <div class="containerCabecalho">
+      <hr id="hr0">
         <img
           src="https://s3-alpha-sig.figma.com/img/ebff/d9d9/bbcd5a235008b728ca0ca2ccd6400a04?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I4bOt3WRoHg~AxawM9dCAIzGqgjdyFCOjs4sZj5R3cz1aWRBtcPZkZ96j5ioNZ8JURp3kte6J0HQBFwLw4SxLaMjXJqftkhQXnyJIdl8~JrfY4phru75IzNArQ~5ewsQL7ysjCrv2sxAtBQ16XGauqqB7RgZsxG3SQt1SD5L2EFJ6MvPEoj8CD-CnMg1r5qi0nfVcaiG6D23L9aYTJhwO7rVhBGzzAyHScer0AQgwHMjZoiyDyV~09RHgqP1apD-98sV9ouFvDRgsjuENMcrbUJlMcCZ2Kyy~6TE4yaI117r98lShTKIDXqWPotZlH7qR5t2Ibr04xZyX19SBVeOtw__"
           alt=""
         />
+        <hr id="hr1">
       </div>
     </header>
     <main>
       <div class="containerMain">
         <div id="ellipse">
-          <img src="IMG/Ellipse 2.png" alt="" />
+          
+          <div class="video-container" onclick="playVideo()">
+            <img id="poster" src="IMG/rap.svg" alt="Poster do Vídeo">
+            <iframe id="videoFrame" src="https://www.youtube.com/embed/NcHrGCcXU74?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         
         </div>
       </div>
 
-      <div class="cont">
-        <div class="contText">
+      <div class="containerCont">
+        <div class="conText">
           <p>
             Originalmente lançado em 2004, MM.FOOD do MF Doom é aclamado como um
             álbum clássico de hip-hop cheio de produção inventiva, jogo de
@@ -51,10 +58,38 @@
             Rodriguez.
           </p>
         </div>
-        <div>
-            <img src="https://s3-alpha-sig.figma.com/img/2156/9afc/253df76a06d2ef1eca90f46131b7f0ec?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kDb-9kB5JD3MI~BtU15kzkv~BypC4umdXzluuI1STC33moO6W2QMzpz6YRPbx2QVGZ4-GQq0u3OSbzlp3IhwDeTrHH8HF9ynDZkIrNhmx6MRdXUZRVe-sNVzCTIWsoL4ugglDDXccurNqdhnTokE9hxvskFo8tMKW6EwUvTY9MV1wfy9ekk06Ze5hyaW8znSaQSZCJ6use6QvEFxGSnxDWErJu9fr90fAvgo062IX8NuaWKhhm2Nd-IO0iRfsZAb1CgwsteSjmSJLBrlYIvlwZE~yxLDeEnM-DtsS2vGxlx8T7Nguw~ECVYL8MH49bPa1DWKEKkPhamFegokkh8kTw__" alt="">
+        <div class="containerConteudo">
+          <div>
+            <img
+              src="https://s3-alpha-sig.figma.com/img/2156/9afc/253df76a06d2ef1eca90f46131b7f0ec?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kDb-9kB5JD3MI~BtU15kzkv~BypC4umdXzluuI1STC33moO6W2QMzpz6YRPbx2QVGZ4-GQq0u3OSbzlp3IhwDeTrHH8HF9ynDZkIrNhmx6MRdXUZRVe-sNVzCTIWsoL4ugglDDXccurNqdhnTokE9hxvskFo8tMKW6EwUvTY9MV1wfy9ekk06Ze5hyaW8znSaQSZCJ6use6QvEFxGSnxDWErJu9fr90fAvgo062IX8NuaWKhhm2Nd-IO0iRfsZAb1CgwsteSjmSJLBrlYIvlwZE~yxLDeEnM-DtsS2vGxlx8T7Nguw~ECVYL8MH49bPa1DWKEKkPhamFegokkh8kTw__"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2>Não Perca tempo bora ouvir esse album !!!</h2>
+            <a href="https://www.youtube.com/embed/videoseries?si=Hpt5AVqewBf-W_p_&amp;list=PLeRL4Xd1rxH1b3Bbgq20-Jv3sT2EiAzIO" title="YouTube video player">
+              <img src="IMG/flexa.png" alt=""
+            /></a>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div>
+        <img src="IMG/rap.svg" alt="">
+        <img src="IMG/rap.svg" alt="">
+        <img src="IMG/rap.svg" alt="">
+
+        
+      </div>
+    </footer>
+
+    <script>
+      function playVideo() {
+          document.getElementById('poster').style.display = 'none'; 
+          document.getElementById('videoFrame').style.display = 'block';
+      }
+  </script>
+
   </body>
 </html>
