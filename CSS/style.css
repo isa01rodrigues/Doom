@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #243d25;
 }
@@ -8,6 +6,13 @@ header {
   width: 150px;
   height: 100%;
 }
+/************************/
+.irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /*************/
 
@@ -15,6 +20,8 @@ header {
   position: absolute;
   top: -96px;
   left: 770px;
+
+
 }
 
 .containerCabecalho img {
@@ -29,6 +36,35 @@ header {
   top: 240px;
   left: 530px;
 }
+#imgVl{
+  z-index: 11;
+  position: absolute;
+  left: 915px;
+  top: 988px;
+  width: 76px;
+  height: 76px;
+}
+
+
+#hr0 {
+  border-top: 2px solid #e4aec5;
+  border-right: 2px solid #e4aec5;
+  border-bottom: 2px solid #e4aec5;
+  border-left: 2px solid #e4aec5;
+  width: 810px;
+  position: absolute;
+  top: 15%;
+}
+#hr1 {
+  border-top: 2px solid #e4aec5;
+  border-right: 2px solid #e4aec5;
+  border-bottom: 2px solid #e4aec5;
+  border-left: 2px solid #e4aec5;
+  width: 852px;
+  position: absolute;
+  top: 15%;
+  left: 55%;
+}
 
 /***********************/
 
@@ -37,45 +73,33 @@ header {
   width: 841px;
   height: 841px;
   border-width: 3.5px;
-  background-color: #cc1b68;
+  background-color: #e4aec5;
   clip-path: ellipse(50% 50%);
- 
 
-  &
-
-.video-container {
+  & .video-container {
     position: relative;
     width: 620px;
     height: 349px;
     cursor: pointer;
-}
-&
-.video-container img {
+  }
+  & .video-container img {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 70%;
     left: 18%;
-}
-&
-.video-container iframe {
+  }
+  & .video-container iframe {
     width: 850px;
     height: 850px;
     display: none;
+  }
 }
-}
-
-
-
-
 
 /*****/
 .containerCont {
   display: flex;
   justify-content: space-around;
- 
-
-  
 }
 
 .conText {
@@ -83,33 +107,33 @@ header {
   left: 28px;
   top: 1170px;
   width: 979px;
-  height: 878px;
-  
-  border-top: 2px solid #cc1b68;
-  border-right: 2px solid #cc1b68;
-  border-bottom: 2px solid #cc1b68;  border-left: 2px solid #cc1b68;
+  height: 940px;
 
-  & 
-  p {
+  border-top: 2px solid #e4aec5;
+  border-right: 2px solid #e4aec5;
+  border-bottom: 2px solid #e4aec5;
+  border-left: 2px solid #e4aec5;
+
+  & p {
     color: #fff !important;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 1;
     text-align: justify;
     width: 892px;
+    font-family: "Irish Grover", system-ui;
   }
 }
 
 .containerConteudo {
   display: flex;
   flex-direction: column;
+  height: 940px;
   position: absolute;
-  left: 1220px;
+  left: 1011px;
   top: 1170px;
-  border-top: 2px solid #cc1b68;
-  border-right: 2px solid #cc1b68;
-  border-bottom: 2px solid #cc1b68;
-  
-
+  border-top: 2px solid #e4aec5;
+  border-right: 2px solid #e4aec5;
+  border-bottom: 2px solid #e4aec5;
 
   & img {
     width: 649px;
@@ -119,49 +143,38 @@ header {
   & h2 {
     color: #ffffff;
     font-size: 4.3em;
+    margin: 32px;
+    font-family: "Irish Grover", system-ui;
   }
-   &
-   a img{
+  & a img {
     position: absolute;
-        left: 440px;
-        top: 876px;
-        width: 241px;
-        height: 161px;
-       
-   }
+    left: 544px;
+    top: 785px;
+    width: 223px;
+    height: 161px;
+  }
+
+ div {
+    border-top: 2px solid #e4aec5;
+ }
 }
 
 /*****************/
-footer{
- 
+footer {
   display: flex;
   justify-content: space-around;
   width: 99%;
   position: absolute;
   top: 2225px;
-  border-top: 2px solid #cc1b68;
-  border-right: 2px solid #cc1b68;
-  border-bottom: 2px solid #cc1b68;
-  border-left: 2px solid #cc1b68;
- 
+  border-top: 2px solid #e4aec5;
+  border-right: 2px solid #e4aec5;
+  border-bottom: 2px solid #e4aec5;
+  border-left: 2px solid #e4aec5;
+  
 }
 
-#hr0{
-  border-top: 2px solid #cc1b68;
-  border-right: 2px solid #cc1b68;
-  border-bottom: 2px solid #cc1b68;
-  border-left: 2px solid #cc1b68;
-  width: 810px;
-  position: absolute; 
-  top: 15%;
+.novaImagem{
+  display: none;
 }
-#hr1{
-  border-top: 2px solid #cc1b68;
-  border-right: 2px solid #cc1b68;
-  border-bottom: 2px solid #cc1b68;
-  border-left: 2px solid #cc1b68;
-  width: 852px;
-  position: absolute; 
-  top: 15%;
-  left: 55%;
-}
+
+

@@ -1,0 +1,142 @@
+@media (max-width: 1820px) {
+  h2,
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .containerMain {
+    left: 420px;
+  }
+  #imgVl {
+    z-index: 11;
+
+    left: 805px;
+  }
+  .containerCabecalho img {
+    position: absolute;
+    top: -96px;
+    left: 655px;
+  }
+  #hr1 {
+    width: 570px;
+    top: 20%;
+    left: 62%;
+  }
+  #hr0 {
+    top: 20%;
+    width: 690px;
+  }
+
+  .containerConteudo {
+    left: 721px;
+    height: 1158px;
+    width: 795px;
+
+    & a img {
+      position: absolute;
+      left: 420px;
+      top: 890px;
+      width: 200px;
+      height: 161px;
+    }
+  }
+
+ 
+
+  .conText {
+    left: 9px;
+    width: 707px;
+    height: 1158px;
+  }
+  .conText {
+    & p {
+      color: #fff !important;
+      font-size: 1.8em;
+      font-weight: 1;
+      text-align: justify;
+      width: 680px;
+      font-family: "Irish Grover", system-ui;
+    }
+  }
+
+  footer {
+    top: 2363px;
+  }
+}
+@media (max-width: 834px) {
+  .containerCabecalho img {
+    position: absolute;
+    top: -119px;
+    left: 283px;
+  }
+  #ellipse {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: -309px;
+
+    & .video-container img {
+      top: 40%;
+      left: 3%;
+    }
+  }
+  #imgVl {
+    top: 775px;
+    z-index: 11;
+    left: 400px;
+  }
+  #hr0 {
+    top: 10%;
+    width: 320px;
+  }
+  #hr1 {
+    width: 310px;
+    top: 10%;
+    left: 68%;
+  }
+
+  .conText {
+    left: 9px;
+    width: 65%;
+    height: 1476px;
+  }
+  .conText {
+    & p {
+      color: #fff !important;
+      font-size: 1.8em;
+      font-weight: 1;
+      text-align: justify;
+      width: 99%;
+      font-family: "Irish Grover", system-ui;
+    }
+  }
+  .containerConteudo {
+    left: 555px;
+    height: 1476px;
+    width: 32%;
+
+    & .imagem-padrao{ 
+        display: none;
+    }
+
+    &
+    .novaImagem {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+  
+   
+    & a img {
+      position: absolute;
+      left: 50px;
+      top: 1325px;
+      width: 150px;
+      height: 150px;
+    }
+  }
+ 
+
+  footer {
+    top: 2680px;
+  }
+}
