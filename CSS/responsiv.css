@@ -39,14 +39,6 @@
       height: 161px;
     }
   }
-
- 
-
-  .conText {
-    left: 9px;
-    width: 707px;
-    height: 1158px;
-  }
   .conText {
     & p {
       color: #fff !important;
@@ -62,6 +54,7 @@
     top: 2363px;
   }
 }
+
 @media (max-width: 834px) {
   .containerCabecalho img {
     position: absolute;
@@ -97,7 +90,7 @@
   .conText {
     left: 9px;
     width: 65%;
-    height: 1476px;
+    height: 1498px;
   }
   .conText {
     & p {
@@ -111,21 +104,19 @@
   }
   .containerConteudo {
     left: 555px;
-    height: 1476px;
+    height: 1498px;
     width: 32%;
 
-    & .imagem-padrao{ 
-        display: none;
+    & .imagem-padrao {
+      display: none;
     }
 
-    &
-    .novaImagem {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-  
-   
+    & .novaImagem {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     & a img {
       position: absolute;
       left: 50px;
@@ -134,9 +125,117 @@
       height: 150px;
     }
   }
- 
 
   footer {
     top: 2680px;
   }
+}
+
+@media (max-width: 360px) {
+  .containerCabecalho img {
+    position: absolute;
+    top: -96px;
+    left: 6px;
+  }
+
+  #hr0 {
+    top: 133.5px;
+    left: -2%;
+    width: 80px;
+  }
+  #hr1 {
+    width: 80px;
+    left: 77%;
+    top: 133.5px;
+  }
+
+  .containerMain {
+    left: 337px;
+  }
+  #ellipse {
+    height: 304px;
+    width: 304px;
+
+    & .video-container {
+      position: relative;
+      width: 304px;
+      height: 304px;
+    }
+    & .video-container img {
+      top: 2%;
+      left: 1%;
+    }
+    & .video-container iframe {
+      width: 103%;
+      height: 101%;
+    }
+  }
+
+  .containerConteudo {
+    left: 555px;
+    height: 1498px;
+    width: 32%;
+
+    & .imagem-padrao {
+      display: none;
+    }
+
+    & .novaImagem {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .containerConteudo {
+    left: -2px;
+    height: 1498px;
+    width: 32%;
+    top: 79%;
+    border: none;
+
+    & .novaImagem {
+      display: block;
+      width: 371px;
+      border-top: 4px solid #e4aec5;
+    }
+    & h2 {
+      font-size: 2.5em;
+      margin: 10px;
+      width: 318px;
+    }
+    & a img {
+      position: absolute;
+      left: 189px;
+      top: 487px;
+      width: 133px;
+      height: 89px;
+    }
+
+    & div {
+      border: none;
+    }
+  }
+  .conText {
+    left: 1px;
+    top: 1187px;
+    width: 98%;
+    height: 1390px;
+    border: 4px solid #e4aec5;
+    & p {
+      color: #fff !important;
+      font-size: 1.4em;
+      font-weight: 1;
+      text-align: start;
+      width: 100%;
+    }
+}
+
+footer {
+  top: 2580px;
+  border-top: none;
+  position: absolute;
+  left: 1px;
+  border: 4px solid #e4aec5;
+}
 }

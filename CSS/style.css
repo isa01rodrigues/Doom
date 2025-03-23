@@ -104,7 +104,7 @@ header {
 
 .conText {
   position: absolute;
-  left: 28px;
+  left: 20px;
   top: 1170px;
   width: 979px;
   height: 940px;
@@ -155,7 +155,11 @@ header {
   }
 
  div {
-    border-top: 2px solid #e4aec5;
+
+  border-top: 1px solid #e4aec5;
+  
+  
+
  }
 }
 
