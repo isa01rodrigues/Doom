@@ -39,6 +39,11 @@
       height: 161px;
     }
   }
+
+  .conText{
+    width: 699px;
+    height: 1158px;
+  }
   .conText {
     & p {
       color: #fff !important;
