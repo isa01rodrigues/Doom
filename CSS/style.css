@@ -90,10 +90,15 @@ header {
     left: -3%;
   }
   & .video-container iframe {
-    width: 850px;
+    width: 244%;
     height: 850px;
+    position: absolute;
+    left: -444px;
     display: none;
+  
+
   }
+     
 }
 
 /*****/
