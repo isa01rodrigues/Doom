@@ -5,7 +5,7 @@ Este projeto é uma homenagem visual ao icônico MF DOOM, desenvolvido com foco 
 🚀 Tecnologias Utilizadas
 HTML para estruturação semântica
 
-CSS (Tailwind CSS) para estilização moderna e responsiva
+CSS  para estilização moderna e responsiva
 
 JavaScript para interatividade e dinamismo
 
